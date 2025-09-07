@@ -9,7 +9,7 @@ studentinfo = {
     "UCID": "nlg",
     "first_name": "Nekhi",
     "last_name": "Glover",
-    "github_username": "Nglov",
+    "github_username": "NGlov",
     "discord_username": "ihkenn",
     "favorite_cartoon": "Gravity Falls",
     "favorite_language": "Python",
@@ -20,3 +20,4 @@ studentinfo = {
 response = requests.post(url, json=studentinfo)
 print("Status: ", {response.status_code})
 print(response.text)
+
